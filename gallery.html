@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DigitalCraft Studios - Gallery</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom styles */
+    .navbar-dark .navbar-brand,
+    .navbar-dark .navbar-nav .nav-link {
+      color: #ffffff; /* White color for navbar text */
+    }
+
+    footer {
+      background-color: #343a40; /* Dark background color */
+      color: #ffffff; /* White text color */
+      padding: 20px 0;
+      margin-top: auto; /* Push footer to the bottom */
+      width: 100%;
+    }
+
+    /* Background image styles */
+    body {
+      background-color: lightcyan;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+    }
+
+    /* Text color for h1 and p */
+    #gallery h1,
+    #gallery p {
+      color: #010101; /* Black color for text */
+    }
+
+    /* Gallery styles */
+    .gallery-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 20px;
+      padding: 20px;
+    }
+
+    .gallery-item {
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-item img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .gallery-item:hover {
+      transform: scale(1.05);
+    }
+
+    /* Ensure footer stays at the bottom */
+    html,
+    body {
+      height: 100%;
+    }
+
+    main {
+      flex: 1;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">DigitalCraft Studios</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./testimonial.html">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./team.html">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section id="gallery" class="py-5">
+      <div class="container">
+        <h1 class="text-center mb-4">Gallery</h1>
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <img src="g1.jpeg" alt="Image 1">
+          </div>
+          <div class="gallery-item">
+            <img src="g2.jpeg" alt="Image 2">
+          </div>
+          <div class="gallery-item">
+            <img src="g3.jpeg" alt="Image 3">
+          </div>
+          <div class="gallery-item">
+            <img src="g4.jpeg" alt="Image 4">
+          </div>
+          <div class="gallery-item">
+            <img src="g5.jpeg" alt="Image 5">
+          </div>
+          <div class="gallery-item">
+            <img src="g6.jpeg" alt="Image 6">
+          </div>
+          <div class="gallery-item">
+            <img src="g7.jpeg" alt="Image 7">
+          </div>
+          <div class="gallery-item">
+            <img src="g8.jpeg" alt="Image 8">
+          </div>
+          <div class="gallery-item">
+            <img src="g9.jpeg" alt="Image 9">
+          </div>
+          <div class="gallery-item">
+            <img src="g10.jpeg" alt="Image 10">
+          </div>
+          <div class="gallery-item">
+            <img src="g11.jpeg" alt="Image 11">
+          </div>
+          <div class="gallery-item">
+            <img src="g12.jpeg" alt="Image 12">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+  <!-- Footer Section -->
+<footer class="bg-dark text-white text-center">
+  <div class="container">
+    <p class="mb-0">&copy; 2024 DigitalCraft Studios. All rights reserved.</p>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS and jQuery (optional, for toggling the navbar on small screens) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

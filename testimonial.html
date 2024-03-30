@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimonials - DigitalCraft Studios</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom styles */
+    .navbar-dark .navbar-brand,
+    .navbar-dark .navbar-nav .nav-link {
+      color: #ffffff; /* White color for navbar text */
+    }
+
+    /* Background image styles */
+    body {
+      background-color: lightcyan; /* Light gray background color */
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+    }
+
+    /* Testimonial section styles */
+    #testimonials {
+      padding: 80px 0;
+    }
+
+    #testimonials h1 {
+      color: #343a40; /* Dark text color */
+      margin-bottom: 50px;
+    }
+
+    /* Testimonial card styles */
+    .testimonial-card {
+      background-color: #ffffff; /* White background color */
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .testimonial-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .testimonial-card .card-body {
+      padding: 30px;
+    }
+
+    .testimonial-card .card-title {
+      color: #343a40; /* Dark text color */
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .testimonial-card .card-text {
+      color: #6c757d; /* Gray text color */
+    }
+
+    .testimonial-card img {
+      max-width: 100%;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #343a40; /* Dark background color */
+      color: #ffffff; /* White text color */
+      padding: 20px 0;
+      width: 100%;
+      margin-top: auto; /* Push footer to the bottom */
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">DigitalCraft Studios</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="./index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./services.html">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="./testimonial.html">Testimonials</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./team.html">Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./gallery.html">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<section id="testimonials">
+    <div class="container text-center">
+        <h1>Client Testimonials</h1>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="card testimonial-card">
+                    <img src="t1.jpeg" alt="John Doe" class="rounded-circle">
+                    <div class="card-body">
+                        <h5 class="card-title">John Doe</h5>
+                        
+                        <p class="card-text">"DigitalCraft Studios exceeded my expectations. They delivered a fantastic product within the deadline. I'm very impressed with their professionalism and attention to detail."</p>
+                    </div>
+                </div>
+            </div>
+            <span></span>
+            <br></br>
+            <div class="col-lg-4 col-md-6">
+                <div class="card testimonial-card">
+                    <img src="t2.jpeg" alt="Jane Smith" class="rounded-circle">
+                    <div class="card-body">
+                        <h5 class="card-title">Jane Smith</h5>
+                        
+                        <p class="card-text">"I had a great experience working with DigitalCraft Studios. They listened to my ideas and transformed them into reality. The end result was beyond what I had imagined."</p>
+                    </div>
+                </div>
+            </div>
+            <span></span>
+            <br></br>
+            <div class="col-lg-4 col-md-6 mx-auto">
+                <div class="card testimonial-card">
+                    <img src="2.jpg" alt="David Johnson" class="rounded-circle">
+                    <div class="card-body">
+                        <h5 class="card-title">David Johnson</h5>
+                        <p class="card-text">"Working with DigitalCraft Studios was a pleasure. Their team is highly skilled and dedicated. I'm extremely satisfied with the outcome of our project.It was good and amazing"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-dark text-white text-center fixed-bottom">
+  <div class="container">
+    <p class="mb-0">&copy; 2024 DigitalCraft Studios. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS and jQuery (optional, for toggling the navbar on small screens) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

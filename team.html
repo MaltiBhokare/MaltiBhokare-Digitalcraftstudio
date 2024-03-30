@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DigitalCraft Studios - Team</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom styles */
+    .navbar-dark .navbar-brand,
+    .navbar-dark .navbar-nav .nav-link {
+      color: #ffffff; /* White color for navbar text */
+    }
+
+    /* Background image styles */
+    body {
+      /* background-image: url('./studio_bg.jpg'); */
+      background-color:lightcyan;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+    }
+
+    /* Text color for h1 and p */
+    #team h1,
+    #team p {
+      color: #010101; /* White color for text */
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #343a40; /* Dark background color */
+      color: #ffffff; /* White text color */
+      padding: 20px 0;
+      width: 100%;
+    }
+
+    .team-member {
+      margin-bottom: 30px;
+    }
+
+    .team-member img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Ensure footer stays at the bottom */
+    html, body {
+      height: 100%;
+    }
+
+    main {
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">DigitalCraft Studios</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="./index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./services.html">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./testimonial.html">Testimonials</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./team.html">Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./gallery.html">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <section id="team" class="py-5">
+    <div class="container">
+      <h1 class="text-center mb-4">Our Team</h1>
+      <br></br>
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-6">
+          <div class="team-member text-center">
+            <img src="./11.jpg" alt="Team Member 1" class="img-fluid rounded-circle">
+            <br></br>
+            <h3>John Doe</h3>
+            <p>Founder & CEO</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="team-member text-center">
+            <img src="./22.jpg" alt="Team Member 2" class="img-fluid rounded-circle">
+            <br></br>
+            <h3>Jane Smith</h3>
+            <p>Creative Director</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="team-member text-center">
+            <img src="./32.jpg" alt="Team Member 3" class="img-fluid rounded-circle">
+            <br></br>
+            <h3>David Johnson</h3>
+            <p>Lead Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer Section -->
+<!-- <footer class="bg-dark text-white text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="list-inline social-buttons">
+          <li class="list-inline-item">
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-12">
+        <p class="mb-0">&copy; 2024 DigitalCraft Studios. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer> -->
+
+<footer class="bg-dark text-white text-center">
+  <div class="container">
+    <p class="mb-0">&copy; 2024 DigitalCraft Studios. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS and jQuery (optional, for toggling the navbar on small screens) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
